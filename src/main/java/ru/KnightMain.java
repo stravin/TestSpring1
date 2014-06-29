@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import ru.grey.spring.knights.Knight;
 
 /**
- * Created by User on 29.06.2014.
+ * Created by S.Travin on 29.06.2014.
  */
 public class KnightMain {
 
