@@ -9,6 +9,9 @@
         <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/knights.xml</file>
         </fileset>
+        <fileset id="fileset3" name="Spring Application Context (3)" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/chapter02_wiring.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>

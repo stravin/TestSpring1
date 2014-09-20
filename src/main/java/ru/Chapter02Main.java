@@ -10,9 +10,9 @@ import ru.grey.spring.chapter02_wiring.Performer;
 public class Chapter02Main {
 
     public static void main(String[] args) {
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("chapter02_wiring.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("chapter02_wiring.xml");
 
-        Performer performer = (Performer) ctx.getBean("duke");
+        Performer performer = (Performer) context.getBean("duke");
         performer.perform();
     }
 }
